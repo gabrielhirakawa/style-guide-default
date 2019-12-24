@@ -95,6 +95,7 @@ module.exports = {
   },
   plugins: ['react', 'prettier'],
   rules: {
+    'linebreak-style': ['error', 'windows'],
     'linebreak-style': 0,
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
