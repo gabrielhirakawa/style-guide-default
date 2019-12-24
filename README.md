@@ -22,6 +22,44 @@ Apagar arquivo do eslint se houver e instalar o eslint como depedência de desen
 yarn add eslint -D
 yarn eslint --init
 ```
+### Obs: Após rodar o comando eslint --init, algumas opções deverão ser selecionadas:
+> How would you like to use ESLint? (Como você gostaria de utilizar o ESLint?)
+
+ To check syntax, find problems, and enforce code style
+
+> What type of modules does your project user? (Quais tipos de módulos o seu projeto usa?)
+
+Javascript modules (import/export)
+
+> Which framework does your project use? (Qual framework o seu projeto usa?)
+ 
+React, Vue ou None of theses
+
+> Does your project use TypeScript? (y/N) (O seu projeto usa TypeScript?)
+ 
+N
+
+> Where does your code run? (Onde irá rodar seu projeto?)
+
+Browser ou Node
+
+> Use a popular style guide (Utilize uma guia de estilo popular)
+
+Use a popular style guide
+
+> Which style guide do you want to follow? (Qual guia de estilo deseja seguir?)
+
+Airbnb 
+
+> What format do you want your config file to be in? (Em que formato você deseja que o seu arquivo de configuração esteja?)
+
+JavaScript
+
+> Would you like to install them now with npm? (Y/n) (Gostaria de instalar as dependências com npm?)
+
+Y
+
+
 
 ### 3 - Delete package-lock
 Apagar aquivo ***package-lock.json*** para associar as dependências ao arquivo ***yarn.lock*** e reinstalar utilizando o comando abaixo:
